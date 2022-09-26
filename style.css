@@ -22,6 +22,11 @@ ul {
     padding: 0;
 }
 
+.product {
+    width: 150px;
+    height: 150px;
+}
+
 .headerlist {
     display: flex;
     flex-direction: row;
@@ -30,4 +35,61 @@ ul {
 a {
     text-decoration: none;
     color: #3882f6;
+    padding: 8px;
+}
+
+.highlight { /* fix this to center picture and resize with flex */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.description { 
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Can't figure out the spacing on this section - come back to this */
+}
+
+#logo {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.quote {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    padding: 50px
+}
+
+.info { /* this section is a mess too */
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
 }
